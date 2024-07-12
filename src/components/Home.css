@@ -1,0 +1,148 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
+.title {
+  font-size: 3.5em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 0px #00c1cb6a,
+               4px 4px 0px #ee4c2b67,
+               6px 6px 0px #957dad6d;
+}
+
+.container {
+  background: linear-gradient(135deg, #2C2A54, #000000);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* New container for text areas */
+.textarea-container {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  max-width: 1024px;
+}
+
+.textarea {
+  width: 45%;
+  height: 180px;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  font-family: 'Arial', sans-serif;
+  background: rgba(130, 118, 141, 0.24);
+  color: rgb(255, 255, 255);
+  overflow-y: auto; /* Enable scroll only when necessary */
+}
+
+/* Custom scroll bar styles */
+.textarea::-webkit-scrollbar {
+  width: 8px;
+}
+
+.textarea::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 8px;
+}
+
+.textarea::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 8px;
+}
+
+.textarea::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.button {
+  background-color: #5c049aa1;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1em;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #551A8B;
+}
+
+.result {
+  margin-top: 30px;
+  width: 80%;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.comparison-table th {
+  background-color: #5c049aa1;
+  text-align: center;
+}
+
+.comparison-table th, .comparison-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.comparison-table td {
+  width: 50%; /* Equal width for both columns */
+}
+
+.comparison-table ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.comparison-table h3 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.reload-button {
+  background-color: #ee4c2b67;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1em;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.reload-button:hover {
+  background-color: #FF6347;
+}
+.loader {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-top: 4px solid #ffffff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
