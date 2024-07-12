@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://nodeservice.vercel.app',
+  baseURL: 'https://working-liart.vercel.app',
   headers: {
     'Content-Type': 'application/json',
   },
