@@ -7,7 +7,7 @@
 ‐> Integrated Gemini AI API for data processing, enabling users to obtain detailed product comparisons and enhancing informed purchasing decisions
 
 ## Demo
-![Search Page - 17 June 2023](
+![Search Page - 25 July 2024](
 https://github.com/user-attachments/assets/db7075f4-13ee-49ee-a6b5-b880987031ff)
 
 
