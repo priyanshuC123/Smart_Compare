@@ -59,7 +59,7 @@ export default function Home() {
     try {
       const response = await axios({
         
-        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${process.env.REACT_APP_API_KEY}`,
+        url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyA9dQRubNdC96-m4xvNXpaMJup7qmSkVfo",
         method: "POST",
         data: {
           contents: [
