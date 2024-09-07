@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://working-liart.vercel.app',
+  baseURL: 'https://services-rouge-eight.vercel.app',
   headers: {
     'Content-Type': 'application/json',
   },
